@@ -84,3 +84,11 @@ Navigate to the URL below in a web browser to test the installation. Replace 192
 http://192.0.3.1/phpmyadmin
 ```
 Then enter the credentials of the test_user you've just created to log in.
+
+
+# How to copy files to aws ec2 from local machine
+
+```sh
+scp -i "xyz.pem" C:/awstest/aws.txt ubuntu@ec2-42-214-225-247.ap-south-1.compute.amazonaws.com:/home/ubuntu
+
+```
